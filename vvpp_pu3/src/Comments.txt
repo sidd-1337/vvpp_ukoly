@@ -1,0 +1,33 @@
+KOMENTÁŘE Z JAVA SOUBORŮ
+
+Z Volcano.java:
+// Náhodná doba mezi produkcí pokladů
+// Vytvoření pokladu s náhodnou hodnotou
+// Přidání pokladu do fronty
+
+Z Collector.java:
+// Odpočinek a nabrání sil
+// Síla odpovídá době spánku v ms
+// Sbírání pokladu
+// Abstraktní metoda pro určení doby spánku - různé strategie
+
+Z AdaptiveCollector.java:
+// Pokud ještě nemáme žádné úspěšné sběry, použijeme výchozí čas
+// Získat poslední úspěšnou sílu a upravit ji o náhodnou hodnotu +/- 20%
+// 20% variace
+// Zajistit, že čas je v povoleném rozmezí
+// Zaznamenat úspěšnou sílu
+
+Z Main.java:
+// Vytvoření sdílené fronty pokladů
+// Vytvoření sopky
+// Vytvoření sběračů s různými strategiemi
+// Sběrač 1: Pevný čas spánku - 2000 ms
+// Sběrač 2: Náhodný čas spánku - mezi 1000 a 3000 ms
+// Sběrač 3: Adaptivní strategie - začíná na 1500 ms a přizpůsobuje se
+// Spuštění sopky
+// Spuštění sběračů
+// Scheduler pro pravidelné výpisy statistik
+// Čekání po stanovenou dobu
+// Ukončení simulace
+// Výpis finálních výsledků 
