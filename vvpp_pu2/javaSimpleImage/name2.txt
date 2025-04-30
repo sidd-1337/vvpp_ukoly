@@ -1,0 +1,13 @@
+Processing time: 43 ms
+
+Top 10 Results (lowest metrics):
+1. Position [0;122] - Metric: 12090,545256
+2. Position [0;123] - Metric: 12090,784622
+3. Position [0;124] - Metric: 12090,973272
+4. Position [0;125] - Metric: 12091,124681
+5. Position [0;126] - Metric: 12091,141487
+6. Position [0;128] - Metric: 12091,296598
+7. Position [0;127] - Metric: 12091,313849
+8. Position [0;129] - Metric: 12091,510717
+9. Position [0;130] - Metric: 12091,556843
+10. Position [0;131] - Metric: 12099,329841
